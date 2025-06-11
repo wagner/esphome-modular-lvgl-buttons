@@ -11,6 +11,11 @@ sensor:
     on_value:
       - lvgl.slider.update:
           id: slider_${uid}
-          value: !lambda return x;
+          value: !lambda |-
+            if (x >= 0){
+              return x;
+            } else {
+              return 0;
+            }
 
 <<: !include ./switch_or_light_button_state.yaml
