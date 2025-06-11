@@ -19,6 +19,10 @@ widgets:
       id: label_${uid}
       text: ${text}
   - slider:
+      animated: true
+      anim_time: 150ms
+      bg_color: black
+      bg_opa: 50%
       align: top_right
       id: slider_${uid}
       x: -5
@@ -26,7 +30,7 @@ widgets:
       width: 40
       height: 165
       pad_all: 0
-      min_value: 0
+      min_value: 1
       max_value: 255
       radius: 10px
       knob:
