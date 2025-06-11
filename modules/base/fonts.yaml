@@ -65,6 +65,7 @@ font:
       "\U000F00DF",  # mdi-brightness-6
       "\U000F032A",  # mdi-leaf
       "\U000F1846",  # mdi-curtains
+      "\U000F0502",  # mdi-television
     ]
 
   # http://materialdesignicons.com/cdn/7.4.47/
@@ -88,4 +89,5 @@ font:
       "\U000F00DF",  # mdi-brightness-6
       "\U000F032A",  # mdi-leaf
       "\U000F1846",  # mdi-curtains
+      "\U000F0502",  # mdi-television
     ]
