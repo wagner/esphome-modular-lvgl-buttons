@@ -63,6 +63,7 @@ font:
       "\U000F02E3",  # mdi-bed
       "\U000F05A8",  # mdi-white-balance-sunny
       "\U000F00DF",  # mdi-brightness-6
+      "\U000F032A",  # mdi-leaf
     ]
 
   # http://materialdesignicons.com/cdn/7.4.47/
@@ -83,6 +84,6 @@ font:
       "\U000F1798",  # mdi-ceiling-fan-light
       "\U000F02E3",  # mdi-bed
       "\U000F05A8",  # mdi-white-balance-sunny
-      "\U000F00DF",  # mdi-brightness-6    
+      "\U000F00DF",  # mdi-brightness-6
+      "\U000F032A",  # mdi-leaf
     ]
-
