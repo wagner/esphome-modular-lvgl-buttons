@@ -64,6 +64,8 @@ font:
       "\U000F05A8",  # mdi-white-balance-sunny
       "\U000F00DF",  # mdi-brightness-6
       "\U000F032A",  # mdi-leaf
+      "\U000F1846",  # mdi-curtains
+      "\U000F0769",  # mdi-ceiling-light
     ]
 
   # http://materialdesignicons.com/cdn/7.4.47/
@@ -86,4 +88,6 @@ font:
       "\U000F05A8",  # mdi-white-balance-sunny
       "\U000F00DF",  # mdi-brightness-6
       "\U000F032A",  # mdi-leaf
+      "\U000F1846",  # mdi-curtains
+      "\U000F0769",  # mdi-ceiling-light
     ]
