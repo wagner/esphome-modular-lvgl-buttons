@@ -10,7 +10,7 @@
           height: 100%
           text_font: $text_font
           scrollable: false
-          bg_color: white
+          bg_color: black
           bg_opa: COVER
           radius: 0
           pad_all: 5
@@ -20,32 +20,32 @@
                 pad_bottom: 10
             - label:
                 id: esphome_version_label
-                text_color: black
+                text_color: white
                 text:
                   format: "ESPHome Version: %s"
                   args: [ 'id(esphome_version).state.c_str()' ]
             - label:
-                text_color: black
+                text_color: white
                 text:
                   format: "Build Date: %s - %s"
                   args: [__DATE__, __TIME__]
             - label:
                 id: connected_mac_label
-                text_color: black
+                text_color: white
                 text: "MAC Address: Not Connected"
             - label:
                 id: ip_address_label
-                text_color: black
+                text_color: white
                 text: "IP Address: Not Connected"
             - label:
                 id: connected_ssid_label
-                text_color: black
+                text_color: white
                 text: "Connected SSID: Not Connected"
             - label:
                 id: wifi_signal_db_percent_label
-                text_color: black
+                text_color: white
                 text: "WiFi Strength: Not Connected"
-              
+
             - obj:
                radius: 0
                pad_all: 0
