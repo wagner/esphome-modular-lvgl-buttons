@@ -18,6 +18,7 @@ widgets:
       align: bottom_left
       id: label_${uid}
       text: ${text}
+      long_mode: wrap
 on_short_click:
     - homeassistant.action:
         action: light.toggle
