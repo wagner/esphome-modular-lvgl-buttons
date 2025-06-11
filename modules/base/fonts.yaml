@@ -3,46 +3,64 @@ font:
     id: roboto72
     size: 72
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto48
     size: 48
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto42
     size: 42
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto36
     size: 36
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto24
     size: 24
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto20
     size: 20
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto18
     size: 18
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto14
     size: 14
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   - file: "gfonts://Roboto"
     id: roboto12
     size: 12
     bpp: 8
+    glyphsets:
+      - GF_Latin_Core
 
   # http://materialdesignicons.com/cdn/7.4.47/
   - file: 'https://github.com/Templarian/MaterialDesign-Webfont/raw/v7.4.47/fonts/materialdesignicons-webfont.ttf'
