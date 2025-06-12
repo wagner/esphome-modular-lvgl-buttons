@@ -20,6 +20,6 @@ widgets:
       text: ${text}
       long_mode: wrap
       height: size_content
-      width: 100
+      width: ${button_width}
 on_short_click:
     light.toggle: local_light_${uid}
