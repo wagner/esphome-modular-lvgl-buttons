@@ -5,6 +5,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto48
@@ -12,6 +13,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto42
@@ -19,6 +21,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto36
@@ -26,6 +29,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto24
@@ -33,6 +37,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto20
@@ -40,6 +45,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto18
@@ -47,6 +53,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto14
@@ -54,6 +61,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   - file: "gfonts://Roboto"
     id: roboto12
@@ -61,6 +69,7 @@ font:
     bpp: 8
     glyphsets:
       - GF_Latin_Core
+    ignore_missing_glyphs: true
 
   # http://materialdesignicons.com/cdn/7.4.47/
   - file: 'https://github.com/Templarian/MaterialDesign-Webfont/raw/v7.4.47/fonts/materialdesignicons-webfont.ttf'
