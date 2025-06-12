@@ -18,5 +18,7 @@ widgets:
       align: bottom_left
       id: label_${uid}
       text: ${text}
+      long_mode: wrap
+      height: SIZE_CONTENT
 on_short_click:
     light.toggle: local_light_${uid}
