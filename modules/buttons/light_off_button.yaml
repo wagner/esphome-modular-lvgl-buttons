@@ -5,7 +5,7 @@
   # height:
   # text:
   # icon:
-  # entity_id:
+  # area_id:
 height: ${height}
 id: button_${uid}
 widgets:
@@ -24,4 +24,4 @@ on_short_click:
     - homeassistant.action:
         action: light.turn_off
         data:
-          entity_id: ${entity_id}
+          area_id: ${area_id}
