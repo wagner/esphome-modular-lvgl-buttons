@@ -43,27 +43,9 @@ lvgl:
     timeout: $touchscreen_idle_timeout
     then:
       - logger.log: "LVGL is idle"
-      - if:
-          condition:
-            - lambda: 'return id(brightness_mode).state == "Day";'
-          then:
-            - light.turn_on:
-                id: display_backlight
-                brightness: ${touchscreen_daytime_brightness_idle}
-      - if:
-          condition:
-            - lambda: 'return id(brightness_mode).state == "Evening";'
-          then:
-            - light.turn_on:
-                id: display_backlight
-                brightness: ${touchscreen_evening_brightness_idle}
-      - if:
-          condition:
-            - lambda: 'return id(brightness_mode).state == "Night";'
-          then:
-            - light.turn_off: display_backlight
-            - lvgl.pause:
-                show_snow: true
+      - light.turn_off: display_backlight
+      - lvgl.pause:
+          show_snow: true
 
 # Wake on screen touch
 touchscreen:
