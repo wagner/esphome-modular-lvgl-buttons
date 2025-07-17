@@ -114,7 +114,7 @@ lvgl:
     button:
       text_font: roboto24
       scroll_on_focus: true
-      radius: 25px
+      radius: 15px
       width: 150px
       height: 109px
       pad_all: 10px
@@ -265,8 +265,3 @@ image:
     type: RGB565
     resize: 470x95
     transparency: alpha_channel
-
-
-
-
-
