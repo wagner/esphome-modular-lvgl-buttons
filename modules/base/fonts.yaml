@@ -94,6 +94,8 @@ font:
       "\U000F1846",  # mdi-curtains
       "\U000F0502",  # mdi-television
       "\U000F0425",  # mdi-power
+      "\U000F05B1",  # mdi-window-open
+      "\U000F05AE",  # mdi-window-closed
     ]
 
   # http://materialdesignicons.com/cdn/7.4.47/
@@ -119,4 +121,6 @@ font:
       "\U000F1846",  # mdi-curtains
       "\U000F0502",  # mdi-television
       "\U000F0425",  # mdi-power
+      "\U000F05B1",  # mdi-window-open
+      "\U000F05AE",  # mdi-window-closed
     ]
