@@ -46,6 +46,7 @@ lvgl:
       - light.turn_off: display_backlight
       - lvgl.pause:
           show_snow: true
+      - lvgl.page.show: main_page
 
 # Wake on screen touch
 touchscreen:
