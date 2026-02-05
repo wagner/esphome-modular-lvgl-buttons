@@ -18,6 +18,7 @@ lvgl:
     image:
       border_width: 0
       scrollable: false
+      bg_color: black
 #      outline_width: 1
 #      outline_color: red
     button:
